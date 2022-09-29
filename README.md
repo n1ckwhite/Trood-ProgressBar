@@ -1,46 +1,25 @@
-# Getting Started with Create React App
+#ТЗ компании Trood
+## Проект запускать командами:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
+### `npm i`
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Запускать приложение в режиме разработки.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## `ProgressBar демонстрация`
 
-### `npm test`
+![alt text](https://downloader.disk.yandex.ru/preview/cc9b0b34ac0811ed16371508cdab46d5e81007f8e59e5c13a378c56fb163432a/6335b42c/TUU-CvWnXRlgYMiyq5s3YUd0G-v99OaAtV5dhZDP8rYHiUjPJbG0Got1Ie3BV6mSkPRKCn7Q1a39Q043m-sMJQ%3D%3D?uid=0&filename=Screen%20Shot%202022-09-29%20at%202.04.21%20PM.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=0&tknv=v2&size=2560x1266)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Задание
+Input props:
+1. items - data array:
+[
+{name: 'Sold', color: '#BD1FBE', value: 677},
+{name: 'Got free', color: '#FC64FF', value: 23},
+...
+]
+2. height - number, bar line height
+3. width - number, bar line width
+Total is calculated by this data (as a sum of each value), and the bar line and its legend are built basing on fraction of value to total
+0-value bars are not displayed, non-zero values always have not less than 1 bar (bars amount is an integer)
