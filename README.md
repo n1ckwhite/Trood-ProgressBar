@@ -9,7 +9,7 @@
 
 ## ProgressBar демонстрация
 
-![alt text](https://disk.yandex.ru/i/FvgILPHmSxzMqQ)
+![alt text](http://disk.yandex.ru/i/FvgILPHmSxzMqQ)
 
 ## Задание
 Input props:
