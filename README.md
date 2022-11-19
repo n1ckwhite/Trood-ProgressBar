@@ -9,7 +9,7 @@
 
 ## ProgressBar демонстрация
 
-![alt text](http://disk.yandex.ru/i/FvgILPHmSxzMqQ)
+![Image alt](https://github.com/n1ckwhite/Trood-ProgressBar/main/public/bar.png)
 
 ## Задание
 Input props:
